@@ -1,7 +1,6 @@
 package java_tutorial;
 
-public class Cat {
+public class Cat extends Animal {
 	
-	// Hi Im a Cat
 
 }

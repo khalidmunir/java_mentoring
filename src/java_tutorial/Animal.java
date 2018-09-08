@@ -17,6 +17,33 @@ public class Animal {
 	// private <- only members of this class
 	// String <- the type of object (String here)
 	private String name;
+	// int <- integer 
+	private int weight;
+	// boolean <- true/false
+	private boolean hasOwner = false;
+	// byte <-
+	private byte age;
+	// long <- very long number -2^63 to 2^63
+	private long uniqueID;
+	// char <- single char (unsigned int representing UTF-16)
+	private char favoriteChar;
+	// double <- number 
+	private double speed;
+	// float <- number - 64bit with decimal place
+	private float height;
+	
+	// protected - only accessible by other code in this package
+	// static <- share with all object
+	protected static int unmberOfAnimals = 0;
+	
+	// Scanner <- accept user input
+	static Scanner userInput = new Scanner(System.in)
+
+	public Animal() {
+		super();
+	}
+	
+			
 	
 	
 }
