@@ -13,11 +13,10 @@ public class Animal {
 	// double <- the type of object (decimal number here)
 	public static final double FAVNUMBER = 1.6180;
 	
-	// Notes: 
+	// Notes :
 	// private <- only members of this class
 	// String <- the type of object (String here)
 	private String name;
-	
 	
 	
 }
